@@ -1,4 +1,5 @@
-####  Object Oriented Programming
-# Normally object is a variable, data structure, function, method
+#  Object Oriented Programming
 
-# Hoever object oriented programming is a instance of a class where the object can be either a variable 
+- Normally object is a variable, data structure, function, method
+- Hoever object oriented programming is a instance of a class where the object can be either a variable, function, data structure or combination
+- OOP fcuses on how to manimpulate
