@@ -39,5 +39,11 @@ overriding: Overriding is when you have two methods in different classes with th
 
 
 ## __Example code__
-
-
+```Python
+def __str__str__(self):
+    return f'User:{self.username}'
+    
+def __repr__(self):
+    return self.__str__()
+```
+1. The above code shows how you are able to print
