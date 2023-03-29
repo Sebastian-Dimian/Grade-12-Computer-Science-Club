@@ -30,8 +30,12 @@ Setter:
 
 getter:
 
-Polymorphism:
+Polymorphism: Methods that are used in different classes that have same or different behaviour
 
-Overloading:
+Overloading: 
 
 Overriding:
+
+## __Example code__
+
+
