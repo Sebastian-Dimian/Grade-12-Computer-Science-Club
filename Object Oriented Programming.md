@@ -5,9 +5,9 @@
 
 ## __Understanding__
 
-- Normally object is a variable, data structure, function or method.
-- Hoever object oriented programming is a instance of a class where the object can be either a variable, function, data structure or combination
-- OOP focuses on how to manipulate the data of the object rather then the logic required to manimpulate them.
+- Normally an object is a variable, data structure, function or method.
+- However object oriented programming is a instance of a class where the object can be either a variable, function, data structure or combination
+- OOP focuses on how to manipulate the data of the object rather then the logic required to manipulate them.
 
 
 ## __Example code__
@@ -19,22 +19,24 @@ class Dog:
       self.__breed = breed
       self.__age = age
 ```
-1. The fist code line, ```class Dog``` is used like a template or blueprint for creating objects within the vairable name ```Dog```
-    1. *note* The first letter of the variable name ```Dog``` has to be capatalised
+1. The fist code line, ```class Dog``` is used like a template or blueprint for creating objects within the variable name ```Dog```
+    1. *note* The first letter of the variable name ```Dog``` has to be capitalized
 2. The next line is where you define and give your argument. Always start with the key word  ```self```. The reason you always use self, is so you can always call back to the code
-3. The next three lines of code are all attributes that you are creating. Within the attributes you also notice two underscore lines, this is know as encapsulation. Encapsulation is used to restric people from accessing the classes/objects.
+3. The next three lines of code are all attributes that you are creating. Within the attributes you also notice two underscore lines, this is known as encapsulation. Encapsulation is used to restrict people from accessing the classes/objects.
+
 
 ## __concepts__
 
-Setter:
+Setter: A setter updates an objects attribute value when the object is under encapsulation
 
-getter:
+getter: A getter retrieves an object's correct attribute value when the object is under encapsulation
 
-Polymorphism: Methods that are used in different classes that have same or different behaviour
+Polymorphism: Methods that are used in different classes that have same or different behavior
 
-Overloading: Overloading is a illigeal code in python. Overloading is when you have to methods in the same class with same name and parameters
+Overloading: Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
 
-Overriding:
+overriding: Overriding is when you have two methods in different classes with the same name and parameters
+
 
 ## __Example code__
 
