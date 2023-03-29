@@ -27,18 +27,18 @@ class Dog:
 
 ## __concepts__
 
-Setter: A setter updates an objects attribute value when the object is under encapsulation
+**Setter:** A setter updates an objects attribute value when the object is under encapsulation
 
-getter: A getter retrieves an object's correct attribute value when the object is under encapsulation
+**Getter:** A getter retrieves an object's correct attribute value when the object is under encapsulation
 
-Polymorphism: Methods that are used in different classes that have same or different behavior
+**Polymorphism:** Methods that are used in different classes that have same or different behavior
 
-Overloading: Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
+**Overloading:** Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
 
-overriding: Overriding is when you have two methods in different classes with the same name and parameters
+**Overriding:** Overriding is when you have two methods in different classes with the same name and parameters
 
 
-## __Example code__
+## __Example code 2__
 ```Python
 def __str__str__(self):
     return f'User:{self.username}'
@@ -46,4 +46,7 @@ def __str__str__(self):
 def __repr__(self):
     return self.__str__()
 ```
-1. The above code shows how you are able to print
+1. The first defined function is used a way to override the string built in method
+    1. The formating on the code here, ```f'User:{self.username}'``` is called formatted string literals or f-strings. This is where you start with letter "f" or "F" and contain the your variable within a curly bracket
+2. The second defined function is used to present a printable version of object
+    1. This topic can go more in depth so you can read more here, [wikpedia source on __repr__](https://docs.python.org/3/library/functions.html#repr)
