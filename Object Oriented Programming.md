@@ -27,15 +27,14 @@ class Dog:
 
 ## __concepts__
 
-**Setter:** A setter updates an objects attribute value when the object is under encapsulation
+1. **Setter:** A setter updates an objects attribute value when the object is under encapsulation
 
-**Getter:** A getter retrieves an object's correct attribute value when the object is under encapsulation
+2. **Getter:** A getter retrieves an object's correct attribute value when the object is under encapsulation
 
-**Polymorphism:** Methods that are used in different classes that have same or different behavior
+3. **Polymorphism:** Methods that are used in different classes that have same or different behavior
 
-**Overloading:** Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
-
-**Overriding:** Overriding is when you have two methods in different classes with the same name and parameters
+    1. **Overloading:** Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
+    2. **Overriding:** Overriding is when you have two methods in different classes with the same name and parameters
 
 
 ## __Example code 2__
