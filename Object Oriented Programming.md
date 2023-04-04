@@ -27,14 +27,22 @@ class Dog:
 
 ## __concepts__
 
-1. **Setter:** A setter updates an objects attribute value when the object is under encapsulation
+1. **Encapsualtion:** Encapsulation is used to restrict people from accessing the classes/objects. This is done adding the double underscore prefix
 
-2. **Getter:** A getter retrieves an object's correct attribute value when the object is under encapsulation
+2. **Setter:** A setter updates an objects attribute value when the object is under encapsulation
 
-3. **Polymorphism:** Methods that are used in different classes that have same or different behavior
+3. **Getter:** A getter retrieves an object's correct attribute value when the object is under encapsulation
+
+4. **Polymorphism:** Methods that are used in different classes that have same or different behavior
 
     1. **Overloading:** Overloading is an illegal code in python. Overloading is when you have to methods in the same class with same name and parameters
-    2. **Overriding:** Overriding is when you have two methods in different classes with the same name and parameters
+    2. **Overriding:** Overriding is when you have two methods in different classes with the same name and parameters\
+
+5. Inheritance: Inheritance is implemented by creating a new class that derives from an existing class> Within Inheritance, there are different types
+    1. **Single Inheritance:** A subclass that inheritance features of the parent class
+    2. **Multiple Inheritance:** A subclass that inheritances features from multiple parent classes
+    3. **Multilevel inheritance:** When a subclass inherits from another sub class and so on. For example, think of great grandparents as one class, then grandparents as a subclass, then parent class, and finally child class that inherits the features.
+
 
 
 ## __Example code 2__
